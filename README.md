@@ -1,16 +1,64 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tado Task Management Application
 
-Currently, two official plugins are available:
+A simple CRUD-based Task Management Application built using React.js. This project allows users to add, update, delete, and manage tasks efficiently with data persistence using Local Storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Data persistence using Local Storage
+- Built with React Hooks (`useState`, `useEffect`)
 
-## React Compiler
+## Technologies Used
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Local Storage API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
+### Clone the repository
+```bash
+git clone https://github.com/your-username/tado-task-app.git
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Navigate to project folder
+```bash
+cd tado-task-app
+```
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Run the project
+```bash
+npm run dev
+```
+
+## Project Structure
+```
+src/
+ ├── components/
+ ├── App.jsx
+ ├── main.jsx
+ ├── styles.css
+```
+
+## Future Improvements
+- Add user authentication
+- Backend integration
+- Drag and drop task feature
+
+## Author
+Sobhraj Rajput
+
+
+<img width="1917" height="965" alt="Screenshot 2026-07-01 002850" src="https://github.com/user-attachments/assets/bae25ef0-cecd-4de6-ba0c-7612eeac29e0" />
+<img width="1917" height="962" alt="Screenshot 2026-07-01 002929" src="https://github.com/user-attachments/assets/eabedea2-1f2c-4179-961c-7e70229f6e54" />
+<img width="1917" height="972" alt="Screenshot 2026-07-01 003144" src="https://github.com/user-attachments/assets/2c784052-019d-4cac-88f2-ea392057eb6b" />
